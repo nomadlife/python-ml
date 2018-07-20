@@ -1,0 +1,54 @@
+scikit-learn module
+
+import mglearn
+%matplotlib inline
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+# Regression
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import Ridge # L2 regression
+from sklearn.linear_model import Lasso # L1 Regression
+
+#Classification
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+
+#DecisionTree 
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import export_graphviz
+import graphviz
+from sklearn.tree import DecisionTreeRegressor
+import pandas as pd
+
+#Datasets
+from sklearn.datasets import load_breast_cancer
+from sklearn.datasets import make_blobs
+
+#Ensembles
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import make_moons
+
+
+#Gradient boosted tree
+from sklearn.ensemble import GradientBoostingClassifier
+
+#Kernalized Support Vector Machine
+from sklearn.svm import SVC
+from mpl_toolkits.mplot3d import Axes3D, axes3d
+
+
+#Neural Network
+from sklearn.neural_network import MLPClassifier
+
+#datasets
+from sklearn.datasets import make_moons
+
+#Uncertainty Estimates
+from sklearn.ensemble import GradientBoostingClassifier
+
+#datasets
+from sklearn.datasets import make_blobs, make_circles
+
